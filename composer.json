@@ -1,18 +1,12 @@
 {
     "name": "luvilhena/xi-de-agosto-theme",
     "require": {
-        "htmlburger/carbon-fields": "^3.2",
+        "htmlburger/carbon-fields": "^3.2"
     },
-    // "extra": {
-    //     "installer-paths": {
-    //         "./vendor/htmlburger/carbon-fields/": ["type:wordpress-plugin"]
-    //     }
-    // },
     "authors": [
         {
             "name": "luivilhena",
             "email": "luisavilhena@gmail.com"
         }
     ]
-},
-
+}
