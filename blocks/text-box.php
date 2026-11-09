@@ -10,9 +10,9 @@ function text_box() {
 		->add_fields( array(
 			Field::make( 'select', 'select', __( 'Background options' ) )
 				->set_options( array(
-					'structure-color-light-pink' => light,
-					'structure-color-green' => dark,
-					'structure-color-black' => black,
+					'structure-color-light-pink' => 'light',
+					'structure-color-green' => 'dark',
+					'structure-color-black' => 'black',
 				) ),
 			Field::make('complex', 'topic', 'Topic')
 			  ->add_fields(array(

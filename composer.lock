@@ -8,24 +8,25 @@
     "packages": [
         {
             "name": "htmlburger/carbon-fields",
-            "version": "v3.2.1",
+            "version": "v3.6.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/htmlburger/carbon-fields.git",
-                "reference": "cd772f1c6c002207eed71f98a8c54ad9403d5644"
+                "reference": "d040371b5dbdc874aeef8f517045a0e82cedea8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/cd772f1c6c002207eed71f98a8c54ad9403d5644",
-                "reference": "cd772f1c6c002207eed71f98a8c54ad9403d5644",
+                "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/d040371b5dbdc874aeef8f517045a0e82cedea8c",
+                "reference": "d040371b5dbdc874aeef8f517045a0e82cedea8c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3"
+                "php": ">=5.6.20"
             },
             "require-dev": {
-                "mockery/mockery": "^0.9.7",
-                "phpunit/phpunit": "~4.8"
+                "mockery/mockery": "1.3.6",
+                "phpunit/phpunit": "7.5.20|9.6.3",
+                "yoast/phpunit-polyfills": "^1.0"
             },
             "type": "library",
             "autoload": {
@@ -143,16 +144,16 @@
                 "issues": "https://github.com/htmlburger/carbon-fields/issues",
                 "source": "https://github.com/htmlburger/carbon-fields"
             },
-            "time": "2020-11-05T17:10:48+00:00"
+            "time": "2026-08-27T06:31:08+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
